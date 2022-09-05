@@ -1,5 +1,6 @@
-body, html {
+body{
     font-family: 'Lato', sans-serif;
+    background-color: #1F2024;
 }
 #header {
     width: 100%;
@@ -16,13 +17,13 @@ body, html {
     font-weight: 500;
     padding-left: 0;
     padding-right: 0;
-    color: black;
+    color: white;
     border-bottom: solid 4px transparent;
 }
 
 #header .nav-link:hover {
-    border-bottom: solid 4px #015958;
-    color: #23606E;
+    border-bottom: solid 4px #4B4952;
+    color: #79717A;
 }
 
 
@@ -47,8 +48,9 @@ body, html {
 }
 
 .typewriter h4{
+    color: white;
     overflow: hidden;
-    border-right: .15em solid #00635A;
+    border-right: .15em solid white;
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: .15em;
@@ -64,5 +66,5 @@ body, html {
     
     @keyframes blink-caret {
         from, to { border-color: transparent}
-        50% { border-color: #00635A}
+        50% { border-color: white}
     }
