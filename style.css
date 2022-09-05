@@ -1,0 +1,31 @@
+.link{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: #6e5c23;
+}
+
+.link::before,
+.link::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 120px;
+    height: 2px;
+    background-color: #00635A;
+    transform: scaleX(0);
+    transition: transform .25s;
+}
+.link::before{
+    top: -3px;
+    transform-origin: left;
+}
+.link::after{
+    bottom: -3px;
+    transform-origin: right;
+}
+.link::hover::before,
+.link::hover::after{
+    transform: scaleX(1);
+}
+
