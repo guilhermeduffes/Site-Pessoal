@@ -33,7 +33,7 @@
   left: 0;
   width: 100%;
   height: 0%;
-  background: #A68F97;
+  background: #0FC2C0;
   z-index: -1;
   transition: 0.8s;
   top: 0;
@@ -89,3 +89,61 @@ h1{
   position: relative;
   right: 275px;
 }
+
+
+.button2{
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: rgb(222, 9, 9);
+  border: 3px solid black;
+  background: none;
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+  transition: color 1s;
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+  border-color: #79717A;
+  border-radius:12px;
+  margin:10px;
+  margin-top: 70px;
+  transition: 0.8s;
+
+}
+
+.button2:hover{
+  color: #000000;
+}
+
+.button2::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #0FC2C0;
+  z-index: -1;
+  transition: 0.8s;
+  top: 0;
+  border-radius: 50% 50% 0 0 ;
+}
+
+.button2::before{
+  top: 0;
+  border-radius: 0 0 50% 50%;
+
+}
+
+.button2:hover::before{
+  height: 180%;
+  
+}
+
+/* Color Theme Swatches in Hex */
+.Teals-1-hex { color: #0FC2C0; }
+.Teals-2-hex { color: #0CABA8; }
+.Teals-3-hex { color: #008F8C; }
+.Teals-4-hex { color: #015958; }
+.Teals-5-hex { color: #023535; }
+
